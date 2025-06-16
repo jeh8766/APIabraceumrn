@@ -5,4 +5,6 @@ import br.com.abraceumrn.api.model.DonationTemplate;
 
 public interface DonationTemplateRepository extends JpaRepository<DonationTemplate, Long>{
 
+    long countById(Long id);
+
 }

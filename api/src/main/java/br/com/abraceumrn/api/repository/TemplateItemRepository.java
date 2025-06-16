@@ -5,4 +5,6 @@ import br.com.abraceumrn.api.model.TemplateItem;
 
 public interface TemplateItemRepository extends JpaRepository <TemplateItem, Long>{
 
+    long countById(Long id);
+
 } 
